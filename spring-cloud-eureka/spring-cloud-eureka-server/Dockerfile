@@ -1,7 +1,7 @@
 FROM maven:3.5-jdk-8
 WORKDIR /app/eureka-server
 RUN ls -ls && pwd
-COPY .
+COPY spring-cloud-eureka .
 COPY pom.xml /app
 RUN ls -ls
 ## 构建应用
