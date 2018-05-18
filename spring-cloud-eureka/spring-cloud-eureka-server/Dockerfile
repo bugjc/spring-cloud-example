@@ -1,5 +1,5 @@
 FROM maven:3.5-jdk-8
-WORKDIR /app/eureka-server
+WORKDIR /app/spring-cloud-eureka
 RUN ls -ls && pwd
 COPY spring-cloud-eureka .
 COPY pom.xml /app
