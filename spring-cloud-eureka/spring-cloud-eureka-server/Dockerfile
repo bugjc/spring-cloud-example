@@ -3,6 +3,7 @@ WORKDIR /app/eureka-server
 RUN ls -ls && pwd
 COPY .
 COPY pom.xml /app
+RUN ls -ls
 ## 构建应用
 RUN mvn clean install -DskipTests
 ## 拷贝编译结果到指定目录
