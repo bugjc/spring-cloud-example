@@ -17,5 +17,5 @@ CREATE TABLE `t_gateway_api_define` (
 
 
 insert  into `t_gateway_api_define`(`id`,`path`,`service_id`,`url`,`retryable`,`enabled`,`strip_prefix`,`api_name`) values
-('1','/test/**',NULL,'http://127.0.0.1:8010',1,1,1,'test server');
+('1','/test/**',NULL,'http://127.0.0.1:8080',1,1,1,'test server');
 
